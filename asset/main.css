@@ -26,9 +26,17 @@ body {
   z-index: 1;
 }
 
+.text-beige {
+  color: var(--c-beige);
+}
+
 .btn-red {
   background-color: var(--c-red);
   color: white;
+}
+.btn-beige {
+  background-color: var(--c-beige);
+  color: #000;
 }
 
 /* .head:after {

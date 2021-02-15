@@ -1,0 +1,14 @@
+.chairs-head {
+  padding: 5em 0;
+  background-color: #fff;
+}
+
+.card-footer {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.card:hover .card-footer {
+  visibility: visible;
+  opacity: 1;
+}
