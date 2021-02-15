@@ -30,6 +30,10 @@ body {
   color: var(--c-beige);
 }
 
+.text-red {
+  color: var(--c-red);
+}
+
 .btn-red {
   background-color: var(--c-red);
   color: white;
@@ -37,6 +41,17 @@ body {
 .btn-beige {
   background-color: var(--c-beige);
   color: #000;
+}
+
+.btn-outline-red {
+  border: 2px solid var(--c-red);
+  background-color: transparent;
+  color: var(--c-red);
+}
+.btn-outline-red:hover {
+  border: transparent;
+  background-color: var(--c-red);
+  color: #fff;
 }
 
 /* .head:after {
